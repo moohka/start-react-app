@@ -1,0 +1,30 @@
+//colors
+$color-dark: #690fad;
+$color-theme: #a15cf5;
+$color-light: #c8b7ef;
+$color-gray: rgba(100, 100, 100, 0.5);
+$color-border: rgba(149, 157, 165, 0.2);
+$color-white: #fefefe;
+$color-black: #111;
+
+//measurments
+$width-mobile: 90vw;
+
+//border radius
+$border-radius: 10px;
+
+//padding
+$padding-default: 0.5rem 1rem;
+
+//shadow
+$box-shadow: rgba(149, 157, 165, 0.2) 0px 5px 12px;
+$box-shadow-border: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+
+//font-sizes
+$font-size-main-title: calc(21px + 1vmin);
+$font-size-sub-title: calc(20px + 0.5vmin);
+
+$font-size-h: calc(19px + 0.5vmin);
+$font-size-p: calc(18px + 0.5vmin);
+
+$font-size-small: clamp(12px, calc(12px + 0.5vmin), 15px);
