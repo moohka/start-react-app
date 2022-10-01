@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
-    <div className="homepage">
-      <h1>Welcome to Footer Page</h1>
-    </div>
+    <footer>
+      <span>Copyright © 2022-2023 Grandorca. All rights reserved.</span>
+    </footer>
   );
 };
 
