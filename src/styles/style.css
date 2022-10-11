@@ -13,4 +13,9 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.notfound {
+  display: grid;
+  place-items: center;
 }/*# sourceMappingURL=style.css.map */
