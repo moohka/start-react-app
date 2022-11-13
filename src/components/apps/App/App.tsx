@@ -1,8 +1,8 @@
-import Home from "../pages/Home/Home";
-import About from "../pages/About/About";
-import NotFound from "../pages/NotFound/NotFound";
-import Navbar from "../interfaces/Navbar/Navbar";
-import Footer from "../components/Footer/Footer";
+import Navbar from "../../interfaces/Navbar/Navbar";
+import Footer from "../Footer/Footer";
+import Home from "../../pages/Home/Home";
+import About from "../../pages/About/About";
+import NotFound from "../../pages/NotFound/NotFound";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App = () => {

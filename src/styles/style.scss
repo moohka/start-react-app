@@ -1,10 +1,9 @@
-@use "../apps/App";
+@use "../components/apps/App/App";
+@use "../components/apps/Header/Header";
+@use "../components/apps/Footer/Footer";
 
-@use "../pages/Home/Home";
-@use "../pages/About/About";
-@use "../pages/NotFound/NotFound";
+@use "../components/interfaces/Navbar/Navbar";
 
-@use "../components/Header/Header";
-@use "../components/Footer/Footer";
-
-@use "../interfaces/Navbar/Navbar";
+@use "../components/pages/Home/Home";
+@use "../components/pages/About/About";
+@use "../components/pages/NotFound/NotFound";
