@@ -1,8 +1,11 @@
+import Navbar from "../../interfaces/Navbar/Navbar";
+
 const Header = () => {
   return (
-    <div className="homepage">
+    <header>
+      <Navbar />
       <h1>Header Image & Title</h1>
-    </div>
+    </header>
   );
 };
 
