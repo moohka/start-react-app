@@ -2,8 +2,11 @@
 @use "../components/apps/Header/Header";
 @use "../components/apps/Footer/Footer";
 
+@use "../components/interfaces/Form/Form";
 @use "../components/interfaces/Navbar/Navbar";
 
 @use "../components/pages/Home/Home";
 @use "../components/pages/About/About";
 @use "../components/pages/NotFound/NotFound";
+
+@use "./theme/buttons";
