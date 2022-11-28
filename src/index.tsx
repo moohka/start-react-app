@@ -1,4 +1,4 @@
-import { StrictMode } from "react";
+import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./components/App/App";
 import "./styles/style.css";
@@ -9,9 +9,9 @@ const root = ReactDOM.createRoot(
 );
 
 root.render(
-  <StrictMode>
+  <React.StrictMode>
     <App />
-  </StrictMode>
+  </React.StrictMode>
 );
 
 reportWebVitals();
