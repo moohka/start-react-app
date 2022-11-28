@@ -1,6 +1,7 @@
-@use "../components/apps/App/App";
-@use "../components/apps/Header/Header";
-@use "../components/apps/Footer/Footer";
+@use "../components/App/App";
+
+@use "../components/layouts/Header/Header";
+@use "../components/layouts/Footer/Footer";
 
 @use "../components/interfaces/Form/Form";
 @use "../components/interfaces/Navbar/Navbar";

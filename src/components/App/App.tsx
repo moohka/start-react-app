@@ -1,9 +1,9 @@
-import Header from "../../apps/Header/Header";
-import Home from "../../pages/Home/Home";
-import About from "../../pages/About/About";
-import NotFound from "../../pages/NotFound/NotFound";
-import Footer from "../Footer/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "../layouts/Header/Header";
+import Home from "../pages/Home/Home";
+import About from "../pages/About/About";
+import NotFound from "../pages/NotFound/NotFound";
+import Footer from "../layouts/Footer/Footer";
 
 const App = () => {
   return (
